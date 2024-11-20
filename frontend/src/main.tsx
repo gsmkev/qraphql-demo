@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { ApolloProvider } from '@apollo/client';
 import App from './App';
 import { client } from './apollo';
+import './index.css';
 
 // Create the root element and render the application
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

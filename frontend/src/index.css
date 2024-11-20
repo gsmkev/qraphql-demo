@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles for dark mode */
+.dark {
+    background-color: #1a202c; /* Example of dark background */
+    color: #cbd5e0; /* Example of light text color */
+}
